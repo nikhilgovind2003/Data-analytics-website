@@ -4,8 +4,8 @@ import Double from "../assets/double.png";
 import Triple from "../assets/triple.png";
 const Cards = () => {
   return (
-    <div className='bg-white py-5 md:px-44 md:py-24'>
-        <div className='max-w-[1240px] grid md:grid-cols-3 px-3'>
+    <div className='bg-white py-5 md:px-24 md:py-24'>
+        <div className='max-w-[1240px] mx-auto grid md:grid-cols-3'>
 
             {/* card 1 */}
             <div className=' shadow-xl flex flex-col mx-6 items-center justify-center py-6 my-6 duration-500 md:hover:scale-105 '>
@@ -18,7 +18,7 @@ const Cards = () => {
                     <p className='my-2 border-b '>2GB Storage Data</p>
                 </div>
 
-                <button className='w-[200px]  bg-[#00df94] font-bold py-2 my-3 rounded-md'>Free Trial</button>
+                <button className=' px-10 bg-[#00df94] font-bold py-2 my-3 rounded-md'>Free Trial</button>
             </div>
             {/* card 2 */}
             <div className='bg-gray-100 shadow-xl flex flex-col md:my-0 items-center justify-center py-6 my-16 duration-500 md:hover:scale-105'>
@@ -31,12 +31,12 @@ const Cards = () => {
                     <p className='my-2 border-b '>2GB Storage Data</p>
                 </div>
 
-                <button className='w-[200px]  bg-[#00df94] font-bold py-2 my-3 rounded-md'>Free Trial</button>
+                <button className='bg-[#00df94] font-bold py-2 my-3 px-10 rounded-md'>Free Trial</button>
             </div>
             {/* card 3 */}
             <div className=' shadow-xl flex mx-6 flex-col items-center justify-center py-6 my-6 duration-500 md:hover:scale-105'>
                 <img src={Triple} className='w-20' alt="" />
-                <h1 className='text-3xl font-bold py-5'>Group Account</h1>
+                <h1 className='text-3xl text-center font-bold py-5'>Group Account</h1>
                 <p className=' text-2xl font-bold'>$149</p>
                 <div className='my-2 text-md text-center font-medium'>
                     <p className='my-2 border-b '>500GB Storage Data</p>
@@ -44,7 +44,7 @@ const Cards = () => {
                     <p className='my-2 border-b '>2GB Storage Data</p>
                 </div>
 
-                <button className='w-[200px]  bg-[#00df94] font-bold py-2 my-3 rounded-md'>Free Trial</button>
+                <button className=' bg-[#00df94] font-bold px-10 py-2 my-3 rounded-md'>Free Trial</button>
             </div>
         </div>
     </div>
